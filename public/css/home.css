@@ -1,0 +1,33 @@
+
+
+.container {
+    background-image: url('back1.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    background-color: grey;
+    width:100%;
+  }
+  
+
+    table {
+        border-collapse: collapse;
+        width: 80%;
+        margin:auto;
+      }
+      
+      th, td {
+        text-align: left;
+        padding: 15px;
+      }
+      
+      tr:nth-child(even){background-color: #f2f2f2}
+      
+      th {
+        /* background-color: #04AA6D;
+        color: red; */
+      }
+      img{
+        width: 30px;
+       
+      }

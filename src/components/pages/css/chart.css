@@ -1,0 +1,123 @@
+.App {
+  width: 98vw;
+  height: 90vh;
+  padding: 1vw;
+}
+
+.header {
+  display: inline-flex;
+}
+
+.react-datepicker-wrapper {
+  width: auto;
+  margin: auto;
+}
+
+.react-datepicker-wrapper input {
+  font-size: 1.2rem;
+}
+
+.limit-select {
+  margin: 0 20px;
+  width: 120px;
+}
+
+.refresh-btn {
+  margin: 0 20px;
+}
+
+.history-info {
+  position: fixed;
+  top: 54px;
+  right: 12px;
+  display: inline-flex;
+  /* padding: 30px 10px 10px 10px; */
+  padding: 10px;
+  flex-direction: column;
+  background: #f3f8c4;
+  box-shadow: 3px 3px 2px 1px rgb(0 0 255 / 20%);
+}
+
+.close-btn {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+
+.pool-profit {
+  color: black;
+  margin: auto 10px;
+  font-size: 18px;
+}
+
+.sky-count {
+  color: skyblue;
+  margin: auto 10px;
+  font-size: 18px;
+}
+
+.moon-count {
+  color: rgb(108, 248, 95);
+  margin: auto 10px;
+  font-size: 18px;
+}
+
+.last-century {
+  color: rgb(255, 111, 111);
+  margin: auto 10px;
+  font-size: 18px;
+}
+
+.last-moon {
+  color: #f6c722;
+  margin: auto 10px;
+  font-size: 18px;
+}
+
+.switch-container {
+  margin: 0 10px;
+  line-height: 38px;
+}
+
+.react-switch {
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
+.custom-tooltip {
+  background-color: antiquewhite;
+  padding: 10px;
+}
+
+.probability_container {
+  display: inline-flex;
+  gap: 32px;
+}
+
+.prob-wrapper {
+  display: flex;
+}
+
+.prob-label {
+  margin: 0px 8px;
+  width: 120px;
+  text-align: center;
+}
+
+.prob-value {
+  margin: 0px 8px;
+  color: crimson;
+  width: 32px;
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}

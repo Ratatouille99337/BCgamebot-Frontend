@@ -1,0 +1,38 @@
+.trendview {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.red-circle {
+  width: 20px;
+  height: 20px;
+  background: #ed6300;
+  border-radius: 10px;
+}
+
+.green-circle {
+  width: 20px;
+  height: 20px;
+  background: #43b309;
+  border-radius: 10px;
+}
+
+.yellow-circle {
+  width: 20px;
+  height: 20px;
+  background: #f6c722;
+  border-radius: 10px;
+}
+
+.sky-circle {
+  width: 20px;
+  height: 20px;
+  background: skyblue;
+  border-radius: 10px;
+}
+
+.empty-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}

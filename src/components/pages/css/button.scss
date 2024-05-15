@@ -1,0 +1,63 @@
+.btn {
+  background-color: transparent;
+  border-radius: 12px;
+  color: #000;
+  min-width: 180px;
+
+  a {
+    height: 56px;
+    padding: 20px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    border-radius: inherit;
+    color: black;
+    width: 100%;
+    color: inherit;
+    position: relative;
+    .img {
+      background-color: inherit;
+      position: absolute;
+      left: 10px;
+      width: 20px;
+      img {
+        background-color: inherit;
+        width: 100%;
+      }
+    }
+  }
+
+  button {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    border-radius: 10px;
+    width: 100%;
+    color: inherit;
+  }
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.default-btn {
+  background-color: #fcd535;
+  color: #000;
+}
+
+.error-btn {
+  background-color: red;
+  color: #fff;
+}
+
+.secondary-btn {
+  background-color: green;
+}
+
+.warning-btn {
+  background-color: yellow;
+}

@@ -1,0 +1,39 @@
+.form-input {
+  height: 56px;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  margin-right: 8px;
+  line-height: 1.6;
+  background-color: transparent;
+  position: relative;
+
+  .input {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0;
+    font-size: 14px;
+    padding: 0px;
+    padding-left: 16px;
+    border: inherit;
+    color: inherit;
+    margin-right: 8px;
+    outline: none;
+    opacity:1;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .default-input {
+    background-color: transparent;
+    border: 1px solid yellow;
+    opacity: 0.8;
+    color:yellow;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

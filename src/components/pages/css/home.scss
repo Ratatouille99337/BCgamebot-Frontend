@@ -1,0 +1,133 @@
+.backimage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #2c3ca6;
+  background-image: url("./bg.png");
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  .content {
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    gap: 60px;
+    align-items: center;
+    .left {
+      flex: 1;
+      width: 100%;
+      .rocket {
+        width: 100%;
+        img {
+          width: 100%;
+          box-shadow: 0px 0px 10px 5px #2c3ca6;
+          opacity: 0.9;
+        }
+      }
+    }
+    .right {
+      width: 100%;
+
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      a {
+        background-color: #2c3ca6;
+        padding: 20px 30px;
+        border-radius: 5px;
+        color: yellow;
+        text-align: center;
+        font-weight: bold;
+        opacity: 0.9;
+        text-decoration: none;
+
+        cursor: pointer;
+        &:hover {
+          opacity: 1;
+          box-shadow: 0px 0px 5px 3px #2c3ca6;
+        }
+      }
+      .textarea {
+        p {
+          font-weight: bold;
+          color: yellow;
+          font-size: 60px;
+          @media only screen and (max-width: 650px) {
+            font-size: 40px;
+          }
+        }
+      }
+      .buttonarea {
+        display: flex;
+        font-display: row;
+        gap: 30px;
+        width: 100%;
+        .sign {
+          flex: 1;
+          background-color: #2c3ca6;
+          padding: 20px 30px;
+          border-radius: 5px;
+          color: yellow;
+          text-align: center;
+          font-weight: bold;
+          opacity: 0.9;
+          text-decoration: none;
+          cursor: pointer;
+          &:hover {
+            opacity: 1;
+            box-shadow: 0px 0px 5px 3px #2c3ca6;
+          }
+        }
+      }
+    }
+    @media only screen and (max-width: 1024px) {
+      flex-direction: column;
+    }
+    @media only screen and (max-width: 650px) {
+      padding: 30px;
+      gap: 30px;
+    }
+  }
+  .tablewrap {
+    padding: 80px;
+    .tablecontent {
+      color: white;
+      width: 100%;
+      margin: auto;
+      table {
+        box-shadow: 0px 0px 5px 2px #ffffff83;
+        border-collapse: collapse;
+        background-color: #000000b9;
+        margin: auto;
+        .table-header-padding th {
+          padding: 20px 5px;
+        }
+        thead {
+          .table-opacity {
+            opacity: 0.8;
+          }
+        }
+        tr {
+          td {
+            padding: 30px;
+            img {
+              width: 30px;
+            }
+          }
+        }
+
+        &:nth-child(even) {
+          background-color: #f2f2f2;
+        }
+      }
+      @media only screen and (max-width: 900px) {
+        overflow: auto;
+      }
+    }
+    @media only screen and (max-width: 650px) {
+      padding: 30px;
+    }
+  }
+}
